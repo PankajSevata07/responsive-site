@@ -1,0 +1,50 @@
+.A{
+    color: violet;
+    font-style: "Protest Revolution";
+}
+h3{
+    color: orange;
+}
+p{
+    margin: 0px;
+}
+.mortal{
+    float:left;
+    height: 200px;
+    width: 500px;
+    position: static;
+}
+.mrtl{
+    float:left;
+    height: 120px;
+    width: 150px;
+}
+.scout{
+    float:left;
+    height: 200px;
+    width: 500px;
+    position: static;
+}
+.sct{
+    float:left;
+    height: 120px;
+    width: 150px;
+}
+footer{
+    clear: left;
+    text-align: right;
+}
+@media (min-width: 319px) and (max-width:480px){
+    .nmn{
+        clear:left;
+    }
+    .tnm{
+        position: static;
+        clear:left;
+    }
+    footer{
+        position: relative;
+        top: 100px;
+        margin-top: 80px;
+    }
+}
